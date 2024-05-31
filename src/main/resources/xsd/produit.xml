@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+--
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://example.com/produits"
+           xmlns:tns="http://example.com/produits"
+           elementFormDefault="qualified">
+
+    <xs:element name="getProduitRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getProduitResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="produit" type="tns:produit"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="produit">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="code" type="xs:string"/>
+            <xs:element name="categorieId" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
+
+<root>
+    
+</root>
+

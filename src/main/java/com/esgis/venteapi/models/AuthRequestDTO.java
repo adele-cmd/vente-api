@@ -1,4 +1,4 @@
-package com.esgis.venteapi.models;
+ package com.esgis.venteapi.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

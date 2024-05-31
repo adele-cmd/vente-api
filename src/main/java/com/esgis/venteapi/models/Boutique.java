@@ -11,45 +11,53 @@ import java.util.Date;
  */
 public class Boutique {
     
-    private int boutique_id;
-    private String nom_boutique;
-    private String tel_boutique;
-    private String adresse_boutique;
+    private int boutiqueId;
+    private String nomBoutique;
+    private String telBoutique;
+    private String adresseBoutique;
 
-    // Getters et setters
-    public int getBoutique_id() {
-        return boutique_id;
+    public Boutique(int boutiqueId, String nomBoutique, String telBoutique, String adresseBoutique) {
+        this.boutiqueId = boutiqueId;
+        this.nomBoutique = nomBoutique;
+        this.telBoutique = telBoutique;
+        this.adresseBoutique = adresseBoutique;
     }
 
-    public void setBoutique_id(int boutique_id) {
-        this.boutique_id = boutique_id;
+    public int getBoutiqueId() {
+        return boutiqueId;
     }
 
-    public String getNom_boutique() {
-        return nom_boutique;
+    public String getNomBoutique() {
+        return nomBoutique;
     }
 
-    public void setNom_boutique(String nom_boutique) {
-        this.nom_boutique = nom_boutique;
+    public String getTelBoutique() {
+        return telBoutique;
     }
 
-    public String getTel_boutique() {
-        return tel_boutique;
+    public String getAdresseBoutique() {
+        return adresseBoutique;
     }
 
-    public void setTel_boutique(String tel_boutique) {
-        this.tel_boutique = tel_boutique;
+    public void setBoutiqueId(int boutiqueId) {
+        this.boutiqueId = boutiqueId;
     }
 
-    public String getAdresse_boutique() {
-        return adresse_boutique;
+    public void setNomBoutique(String nomBoutique) {
+        this.nomBoutique = nomBoutique;
     }
 
-    public void setAdresse_boutique(String adresse_boutique) {
-        this.adresse_boutique = adresse_boutique;
+    public void setTelBoutique(String telBoutique) {
+        this.telBoutique = telBoutique;
+    }
+
+    public void setAdresseBoutique(String adresseBoutique) {
+        this.adresseBoutique = adresseBoutique;
     }
 
     public void setId(String id) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+
+  
 }

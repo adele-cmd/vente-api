@@ -21,4 +21,8 @@ public class Produit {
    private double prixVente;
    private Boolean perissable;
    private Categorie categorie;
+
+    public void setId(String id) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

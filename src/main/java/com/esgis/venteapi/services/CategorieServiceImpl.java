@@ -10,7 +10,7 @@ import com.esgis.venteapi.models.Categorie;
 import com.esgis.venteapi.repositories.CategorieRepository;
 
 @Service
-public class CategorieServiceImpl implements CategorieService{
+public class CategorieServiceImpl extends CategorieService{
     
     @Autowired
     private CategorieRepository categorieRepository;

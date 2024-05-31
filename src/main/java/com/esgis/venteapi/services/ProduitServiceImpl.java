@@ -10,7 +10,7 @@ import com.esgis.venteapi.models.Produit;
 import com.esgis.venteapi.repositories.ProduitRepository;
 
 @Service
-public class ProduitServiceImpl implements ProduitService {
+public class ProduitServiceImpl extends ProduitService {
     
     @Autowired
     private ProduitRepository produitRepository;
